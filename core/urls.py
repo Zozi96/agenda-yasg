@@ -8,10 +8,7 @@ schema_view = get_schema_view(
     openapi.Info(
         title="Doctores API",
         default_version='v1',
-        description="Test description",
-        terms_of_service="ApsCreativas",
-        contact=openapi.Contact(email="contact@snippets.local"),
-        license=openapi.License(name="ApsCreativas"),
+        description="Test description"
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),
